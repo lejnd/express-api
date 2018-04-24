@@ -1,0 +1,15 @@
+{ 
+	"apps": [ 
+		{ 
+			"name": "mobile4100",
+			"script": "./app.js",
+			"log_date_format": "YYYY-MM-DD HH:mm Z",
+			"instances": 1,
+			"min_uptime": "10s",
+			"max_restarts": 1000000,
+			"max_memory_restart": "500M",
+			"cron_restart": "0 24 18 * * *",
+			"autorestart": true,
+		} 
+	]
+}
